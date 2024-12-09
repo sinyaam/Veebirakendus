@@ -1,0 +1,35 @@
+body{
+    font-family: Arial;/*fondi tüüp*/
+    color: green; /*teksti värv*/
+}
+h1{
+    border: solid 1px green;
+    padding: 10%;
+    margin: 8px;
+    border-radius: 50px;
+    width: 55%;
+    background-color: white;
+}
+h2{
+    border: dotted 2px green;
+    padding: 1%;
+    margin: 8px;
+    border-radius: 50px;
+    width: 55%;
+    background-color: white;
+}
+ul{
+    list-style-type: circle; /*square */
+    padding: 5px;
+    background-color: white;
+}
+ul li{
+    background-color: sandybrown;
+    margin: 3px;
+}
+table{
+    width: 55%;
+    border:solid 1px green;
+    text-align: center; /*teksti joondamine keskele*/
+    background-color: sandybrown;
+}
