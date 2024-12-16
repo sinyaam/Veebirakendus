@@ -1,0 +1,27 @@
+table#lihtne, td{
+    width:60%;
+    border : 1px solid black;
+    text-align: center;
+    padding: 2px;
+}
+table#keeruline1,table#keeruline1 td{
+    width:60%;
+    border : 1px solid black;
+    text-align: center;
+    padding: 2px;
+    background-color: sandybrown;
+}
+table#keeruline2,table#keeruline2 td{
+    width:60%;
+    border : 1px solid black;
+    text-align: center;
+    padding: 2px;
+    background-color: darkgreen;
+}
+table#keeruline3,table#keeruline3 td{
+    width:60%;
+    border : 1px solid black;
+    text-align: center;
+    padding: 2px;
+    background-color: deepskyblue;
+}
