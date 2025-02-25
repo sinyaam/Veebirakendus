@@ -1,0 +1,52 @@
+header  h1{
+    border: solid 1px green;
+    padding: 5%;
+    margin: 2px;
+    border-radius: 50%;
+    width:35%;
+    background-color: sandybrown;
+    text-align: center;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: darkgrey;
+
+}
+li{
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 10px;
+}
+li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+li a:hover{
+    background-color: sandybrown;}
+footer{
+    margin: auto;
+    text-align: center;
+    background-color: green;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+section h2{
+    color: sandybrown;
+    width: 60%;
+    margin: auto;
+
+}
+section {
+    width: 60%;
+    margin: auto;
+    background-color: white;
+    color: sandybrown;
+
+}
+

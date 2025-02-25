@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Ivan Sereda</title>
+    <link rel="stylesheet" href="kodulehtStyle.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.14.1/jquery-ui.min.js" integrity="sha256-AlTido85uXPlSyyaZNsjJXeCs07eSv3r43kyCVc8ChI=" crossorigin="anonymous"></script>
+<script>
+
+    function star() {
+        function punaseks() {
+            $('h1,#teks,#w').css('color', 'orange');
+        }
+
+        function siniseks() {
+            $('h1').css('color', 'blue');
+        }
+
+        function gg() {
+            $('h2,#w').css('color', 'green');
+        }
+
+        function hh() {
+            $('h2').css('color', 'purple');
+        }
+            function mustaks() {
+                $('h1,#teks').css('color', 'black');
+            }
+
+            $('#teks,#w').mouseenter(punaseks);
+            $('h2,#w').mouseenter(gg);
+            $('h1').mouseenter(siniseks);
+            $('h1,#teks').mouseleave(mustaks)
+            $('h2').mouseleave(hh);
+
+
+
+            $('#teks').draggable()
+            $('#ppp').draggable()
+            $('#p').draggable()
+            $('h1').draggable()
+            $('h2').draggable()
+            $('#footer').draggable()
+            $('#k').draggable()
+            $('#s').draggable()
+            $('#t').draggable()
+
+
+    }
+
+</script>
+</head>
+<body onclick="star()">
+<!--päis-шапка страницы-->
+<header>
+    <h1>Ivan Veebirakenduste tööde leht</h1>
+</header>
+<!--navigeerimesmenüü--><a id="w">w</a>
+<nav id="ppp">
+    <ul>
+        <li >
+            <a href="index.html" id="k">kodu </a>
+        </li>
+        <li >
+            <a href="synavara.html "id="s" >sõnavara </a>
+        </li>
+        <li >
+            <a href="tehtudTood.html" id="t"> tehtud tööd </a>
+        </li>
+        <li >
+            <a href="kasutatudLining.html" id="p" > kasuliku lingid </a>
+        </li>
+    </ul>
+</nav>
+<!--sisu-->
+<main>
+    <section>
+        <h2>Info mimust...</h2>
+        <div id="teks">
+            minu olen õpilane
+            <br>õpin TIT
+            <br>olen 16-aastane
+        </div>
+        <input type="button" value="peida" href="index.html" id="knopka" onclick="naitapeida()">
+
+    </section>
+</main><!--jalus-подвал страницы-->
+<footer id="footer">
+    <strong>Ivan Sereda &copy; 2024</strong>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,53 @@
+body{
+    font-family: Georgia, serif;
+    background-color: beige;
+}
+input[type=checkbox] + input[type=text] + label {
+    width: 100% !important;
+    padding: 40px;
+    box-sizing: border-box;
+    border-bottom: 4px solid black;
+    border-radius: 10px;
+    background-color: purple;
+    color: salmon;
+}
+
+input[type=radio] + input[type=range] {
+    padding: 20px;
+    background-color: yellowgreen;
+    box-sizing: border-box;
+    font-size: medium;
+
+}
+select{
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+    box-sizing: border-box;
+    border-bottom: 4px solid black;
+    border-radius: 17px;
+    background-color: purple;
+    color: salmon;
+    cursor: pointer;
+}
+input[type=reset], input[type=button] {
+    padding: 10px;
+    margin: 5px;
+    box-sizing: border-box;
+    border: 1px solid purple;
+    border-radius: 12px;
+    background-color: purple;
+    cursor: pointer;
+    width: 100%;
+
+}
+table{
+    width: 50%;
+    padding: 10px;
+    border-collapse: collapse;
+    border: 1px solid purple;
+    margin: 5px;
+}
+td {
+    padding: 10px;
+}

@@ -1,0 +1,143 @@
+table#lihtne{
+    width:60%;
+    border : 1px solid black;
+    text-align: center;
+    padding: 2px;
+}
+
+/*tabeli pseudoelementide kasutamine*/
+#lihtne tr:nth-child(1) td:nth-child(1){/*1.rida 1.lahter*/
+ background-color: purple;
+}
+#lihtne tr:nth-child(1) td:nth-child(2){/*1.rida 2.lahter*/
+    background-color: darkgoldenrod;
+}
+#lihtne tr:nth-child(1) td:nth-child(3){/*1.rida 3.lahter*/
+    background-color: deepskyblue;
+}
+#lihtne tr:nth-child(2) td:nth-child(1){/*2.rida 1.lahter*/
+    background-color: springgreen;
+}
+#lihtne tr:nth-child(2) td:nth-child(2){/*2.rida 2.lahter*/
+    background-color: purple;
+}
+#lihtne tr:nth-child(2) td:nth-child(3){/*2.rida 3.lahter*/
+    background-color: salmon;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+table#keeruline1,table#keeruline1 td{
+    width:60%;
+    border : 1px solid black;
+    text-align: center;
+    padding: 2px;
+    background-color: sandybrown;
+}
+table#keeruline2,table#keeruline2 td{
+    width:60%;
+    border : 1px solid black;
+    text-align: center;
+    padding: 2px;
+    background-color: darkgreen;
+}
+table#keeruline3,table#keeruline3 td{
+    width:50%;
+    border : 1px solid black;
+    text-align: center;
+    background-color: deepskyblue;
+}
+table#töö,table#töö td{
+    border : 1px solid black;
+    padding: 10px;
+    width: 60%;
+    text-align: center;
+}
+#töö tr:nth-child(1) td:nth-child(1){
+    background-color: purple;
+    width:40%;
+}
+#töö tr:nth-child(1) td:nth-child(2){
+    background-color: blue;
+    width:60%;
+}
+#töö tr:nth-child(2) td:nth-child(1){
+    background-color: green;
+    width:20%;
+}
+#töö tr:nth-child(2) td:nth-child(2){
+    background-color: salmon;
+    width:60%;
+}
+#töö tr:nth-child(2) td:nth-child(3){
+    background-color: red;
+    width:20%;
+}
+#töö tr:nth-child(3) td:nth-child(1){
+    background-color: deepskyblue;
+    width:20%;
+}
+#töö tr:nth-child(3) td:nth-child(2){
+    background-color: deeppink;
+    width:40%;
+}
+#töö tr:nth-child(3) td:nth-child(3){
+    background-color: darkred;
+    width:40%;
+}
+#töö tr:nth-child(4) td:nth-child(1){
+    background-color: hotpink;
+    width:20%;
+}
+#töö tr:nth-child(4) td:nth-child(2){
+    background-color: goldenrod;
+    width:60%;
+}
+table#töö2,table#töö2 td{
+    border : 1px solid black;
+    text-align: center;
+    padding: 10px;
+    border-collapse:collapse;
+}
+#töö2 tr:nth-child(1) td:nth-child(1){
+    background-color: purple;
+}
+#töö2 tr:nth-child(2) td:nth-child(1){
+    background-color: goldenrod;
+}
+#töö2 tr:nth-child(2) td:nth-child(2){
+    background-color: salmon;
+}
+#töö2 tr:nth-child(2) td:nth-child(3){
+    background-color: firebrick;
+}
+#töö2 tr:nth-child(3) td:nth-child(1){
+    background-color: grey;
+}
+#töö2 tr:nth-child(4) td:nth-child(1){
+    background-color: navajowhite;
+}
+#töö2 tr:nth-child(4) td:nth-child(2){
+    background-color: olive;
+}
+#töö2 tr:nth-child(4) td:nth-child(3){
+    background-color: deeppink;
+}
+#töö2 tr:nth-child(5) td:nth-child(1){
+    background-color: lightblue;
+}
+#töö2 tr:nth-child(6) td:nth-child(1){
+    background-color: springgreen;
+}
+#töö2 tr:nth-child(7) td:nth-child(1){
+    background-color: darkblue;
+}

@@ -1,0 +1,45 @@
+div{
+    width:30%;
+    height:30%;
+    border: solid 1pt red;
+    position: absolute;
+    left: 2cm;
+    top: 13cm;
+    padding: 2%;
+    border-radius: 60px;
+    font-family: Georgia , Times, serif;
+    border-collapse: collapse;
+    text-align: center;
+}
+h2{
+    width:30%;
+    height:30%;
+    border: solid 1pt grey;
+    position: absolute;
+    left: 2cm;
+    top: 3cm;
+    padding: 2%;
+    border-radius: 60px;
+    font-family: Georgia , Times, serif;
+    border-collapse: collapse;
+
+}footer{
+    background-color: navajowhite;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+ }header{
+    text-align: center;
+    width: 100%;
+    font-family: Georgia , Times, serif;
+    font-variant: small-caps;
+    letter-spacing: 0.1cm;
+    background-color: navajowhite;
+   }
+img{
+    border: solid 3pt black;
+    border-radius: 80%;
+    filter:contrast(150%);
+
+       }

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <title> </title>
+    <link rel="stylesheet" href="Ankeet.css">
+</head>
+<body>
+<table border="1">
+    <h1>Muusika ankeet</h1>
+     <tr><td><form action="#"><label for="nimi">Eesnimi</label><input type="text" id="nimi" placeholder="Kirjuta nimi"></form></td>
+</tr>
+<tr>
+    <td>
+        <strong>Milisit muusikat sa kuulad?</strong>
+        </strong>
+    </td>
+    <td>
+        <input type="checkbox" id="rock">
+        <label for="rock">Rock</label>
+        <input type="checkbox" id="hip-hop">
+        <label for="hip-hop">Hip-Hop</label>
+        <input type="checkbox" id="bluus">
+        <label for="bluus">Bluus</label>
+    </td>
+</tr>
+<tr>
+    <td><label for="tund">Mitu tundi päevas sa kuulad muusikat?</label>
+    </td>
+    <td><select name="tund" id="tund">
+        <option value="15 min">15 min</option>
+        <option value="1 tund">1 tund</option>
+        <option value="2 tundi">2 tundi</option>
+        <option value="pool päeva">pool päeva</option>
+        </select></td>
+</tr>
+<tr>
+    <td>0 tundi<input type="range" min="0" max="24" id="range">24 tundi</td>
+    <td>
+        <label for="kuulad raadiot">Kas sa kuulad raadiot?</label>
+        <select name="tund" id="kuulad raadiot">
+        <option value="jah">jah</option>
+        <option value="ei kuula">ei kuula</option>
+        <option value="ei tea">ei tea</option>
+        </select></td>
+</tr>
+    <tr>
+        <td>
+            <label>Mitu asju raadiojaame sa oskad nimetega?</label>
+        </td>
+        <td>0 asju<input type="range" min="0" max="10" id="asju">10 asju</select></td>
+    </tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <script src="vormscript.js"></script>
+  <link rel="stylesheet" href="vormsstyle.css">
+</head>
+<body>
+<h1>Vormist lugemine JS abil</h1>
+<form action="">
+  <label for="nimi">Sisesta nimi</label>
+  <input type="text" name="nimi" id="nimi">
+  <br>
+  <br>
+  <label for="pnimi">Sisesta perekonanimi</label>
+  <input type="text" name="pnimi" id="pnimi">
+  <br>
+  <br>
+  <label for="varv">Vali vastuse värv</label>
+  <input type="color" name="varv" id="varv">
+  <br>
+  <strong>Vali sugu:</strong>
+  <br>
+  <input type="radio" name="sugu" id="mees">
+  <label for="mees"> mees</label>
+  <br>
+  <input type="radio" name="sugu" id="naine">
+  <label for="naine"> naine</label>
+  <img src="" alt="" id="pilt">
+  <br>
+  <label for="synnipaev">Vali oma sünnipaev</label>
+  <input type="date" name="synnipaev" id ="synnipaev">
+  <br>
+  <input type="number" max="100" name="GBRAM" id="GBRAM">
+  <label for="GBRAM">mitu GB RAM-i teil on</label>
+  <br>
+  <input type="email" name="email" id="email">
+  <label for="email">mis on su email nimi</label>
+  <br>
+  <label for="tel">oma telefoninumbrit</label>
+  <input type="tel" name="tel" id ="tel">
+  <br>
+  <label for="url">oma url</label>
+  <input type="url" name="tel" id ="url">
+  <br>
+  <label for="linn">Kus sa elad</label>
+  <br>
+  <select name="linn" id="linn" onchange="selectVAlik()">
+    <option value="Tallin">Tallin</option>
+    <option value="Tartu">Tartu</option>
+    <option value="Narva">Narva</option>
+    <option value="Paide">Paide</option>
+    <option value="Parnu">Parnu</option>
+  </select>
+  <br>
+  <div id="vastus2"></div>
+  <br>
+  <strong>Vali oma hobby</strong>
+  <br>
+  <input type="checkbox" id="sport" value="sport" onclick="checkboxValik()">
+  <label for="sport">Sport</label>
+  <br>
+  <input type="checkbox" id="joonistamine" value="joonistamine" onclick="checkboxValik()">
+  <label for="joonistamine">joonistamine</label>
+  <br>
+  <input type="checkbox" id="muusika" value="muusika" onclick="checkboxValik()">
+  <label for="muusika">muusika</label>
+  <br>
+  <input type="checkbox" id="reisida" value="reisida" onclick="checkboxValik()">
+  <label for="reisida">reisida</label>
+  <br>
+  <input type="checkbox" id="kaljuronimine" value="kaljuronimine" onclick="checkboxValik()">
+  <label for="kaljuronimine">kaljuronimine</label>
+  <br>
+  <div id="vastus3"></div>
+  <div id="vastus"></div>
+  <input type="button" value="OK" onclick="lugemine2()">
+</form>
+</body>
+</html>

@@ -1,0 +1,6 @@
+#tekst,h1{
+    position: relative;
+    left:0;
+    border: 1pt solid #000;
+    width: 200px;
+}

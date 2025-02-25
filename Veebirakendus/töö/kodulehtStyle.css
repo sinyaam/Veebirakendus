@@ -1,0 +1,42 @@
+header h1{
+    border: solid 1px yellowgreen;
+    padding: 5%; /*vahe tekstist ääriseni*/
+    margin: 10px;
+    border-radius: 130px;
+    width: 50%;
+    background-color: darkslategray;
+    letter-spacing: 0.1cm ;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: darkslategray;
+}
+li{
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 10px;
+}
+li a{
+    text-decoration: none;
+    color: greenyellow;
+    padding: 10px;
+}
+li a:hover{/*lingid fookuses*/
+}
+footer{
+    text-align: center;
+    margin-top: auto;
+    background-color: darkslategray;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+section h2 {
+
+}
+
